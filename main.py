@@ -10,7 +10,7 @@ data_size = 2000
 
 # setup the training data
 
-os.chdir('C:/Users/Moi/Desktop/Eliot/Travaux/Prépa/Spé/Réseaux_de_neurones_TIPE')
+os.chdir('')
 with open('donnees_NW_chaud', 'rb') as fichier:
     mon_unp = pickle.Unpickler(fichier)
     data = mon_unp.load()
